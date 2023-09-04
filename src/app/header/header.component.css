@@ -20,10 +20,25 @@ button {
   color: white;
   
 }
-input {
+.inputBox {
     border-radius: 10px;
     border:none;
     margin-left: 20px;
     /* padding: 5px ; */
     font-size: 20px;
+    
+}
+.headerpart{
+  display: flex;
+  gap: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+
+}
+.personIcon{
+  background: rgb(210, 207, 207);
+  border-radius: 50%;
+  margin-top: 6px;
+ 
 }

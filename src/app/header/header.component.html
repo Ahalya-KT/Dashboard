@@ -10,7 +10,7 @@
   </button>
   <span>Dashboard</span>
   <span class="example-spacer"></span>
-<input type="text" placeholder="search">
+<input type="text" class="inputBox" placeholder="search">
   <button
     mat-icon-button
     class="example-icon favorite-icon"
@@ -28,7 +28,12 @@
           class="example-icon"
           aria-label="Example icon-button with share icon"
         >
-          <mat-icon>person</mat-icon>
+        <div class="headerpart">
+
+          <p>Hi,Laura Jane</p>
+            <mat-icon class="personIcon">person</mat-icon>
+
+        </div>
         </button>
         <mat-menu #menu="matMenu">
           <button mat-menu-item><mat-icon>logout</mat-icon>Log out</button>

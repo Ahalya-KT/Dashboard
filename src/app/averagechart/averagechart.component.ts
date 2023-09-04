@@ -20,7 +20,7 @@ export class AveragechartComponent {
             text: ''
         },
         xAxis: {
-            categories: ['2021/22', '2020/21', '2019/20', '2018/19', '2017/18']
+            categories: ['10', '20', '30', '40', '50']
         },
         yAxis: {
             min: 0,
@@ -38,13 +38,13 @@ export class AveragechartComponent {
             }
         },
         series: [{
-            name: 'Kevin De Bruyne',
+            name: 'Elements',
             data: [4, 4, 2, 4, 4]
         }, {
-            name: 'Joshua Kimmich',
+            name: 'Components',
             data: [0, 4, 3, 2, 3]
         }, {
-            name: 'Sadio Mané',
+            name: 'Controls',
             data: [1, 2, 2, 1, 2]
         }]
     }
