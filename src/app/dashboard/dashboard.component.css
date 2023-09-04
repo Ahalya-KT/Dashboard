@@ -1,0 +1,45 @@
+
+.avg-chart{
+  width: 109%;
+}
+.chartCal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 60px;
+}
+.map {
+  margin: 30px 0px;
+}
+
+.analChart {
+  display: flex;
+  margin: 10px 0px;
+  gap: 10px;
+}
+
+.analatic-sec {
+  width: 70%;
+ text-align: center;
+  color: blue;
+}
+.chart {
+  width: 30%;
+  
+}
+
+.recent {
+  bottom: 0;
+  text-align: center;
+  padding-left: 4px;
+ 
+}
+
+.parent {
+  display: flex;
+}
+
+.parent-Left,
+.parent-Right {
+  width: 50%;
+}

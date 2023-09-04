@@ -1,0 +1,5 @@
+------Angular project-----Dashboard---------
+   1- to create a new project--- ng new Dashboard
+   2- to run a project---ng s
+   3- third party libraries in app module.ts
+          3.1-- angular material 

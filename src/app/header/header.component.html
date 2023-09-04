@@ -1,0 +1,39 @@
+<mat-toolbar>
+  <!-- button1 -->
+
+  <button 
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Dashboard</span>
+  <span class="example-spacer"></span>
+<input type="text" placeholder="search">
+  <button
+    mat-icon-button
+    class="example-icon favorite-icon"
+    aria-label="Example icon-button with heart icon"
+  >
+    
+  </button>
+
+  <div class="flex-container">
+    <ul>
+      <li>
+        <button
+          [matMenuTriggerFor]="menu"
+          mat-icon-button
+          class="example-icon"
+          aria-label="Example icon-button with share icon"
+        >
+          <mat-icon>person</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item><mat-icon>logout</mat-icon>Log out</button>
+        </mat-menu>
+      </li>
+    </ul>
+  </div>
+</mat-toolbar>
